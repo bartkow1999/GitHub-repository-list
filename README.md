@@ -18,10 +18,10 @@ To look into repository details press one of shown repository objects on main sc
 The project was made in **April 2021**.
 
 ## Technologies
-Kotlin
-Klaxon (JSON parser)
-Android API 30
-Android Studio
+* Kotlin
+* Klaxon (JSON parser)
+* Android API 30
+* Android Studio
 
 ## Setup
 It`s preferred to open in Android Studio. It shall be launched on **API 30**.
@@ -36,7 +36,8 @@ You can also launch the application using ```Github-repository-list.apk``` file 
 There are many ways how we can develop the app:
 * more repository details
 * more detailed GUI
-* using database to develop offline mode
+* use database to develop offline mode
+* statistics for every repository branch
 
 ## Screenshots
 ![Main menu](./resources/screenshots/01.png)
