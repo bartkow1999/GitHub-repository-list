@@ -21,7 +21,9 @@
             android:id="@+id/repositoryNameDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView11"
@@ -34,7 +36,9 @@
             android:id="@+id/descriptionDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView12"
@@ -47,7 +51,9 @@
             android:id="@+id/languageDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView7"
@@ -60,7 +66,9 @@
             android:id="@+id/defaultBranchDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView8"
@@ -73,7 +81,9 @@
             android:id="@+id/subscriberCountDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView9"
@@ -86,7 +96,9 @@
             android:id="@+id/createdAtDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView4"
@@ -99,12 +111,15 @@
             android:id="@+id/updatedAtDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:paddingBottom="2dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/pushed_at_detailed_text"
             android:textSize="12sp" />
 
@@ -112,12 +127,14 @@
             android:id="@+id/pushedAtDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView6"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/size_detailed_text"
             android:textSize="12sp" />
 
@@ -125,12 +142,14 @@
             android:id="@+id/sizeDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/has_issues_detailed_text"
             android:textSize="12sp" />
 
@@ -138,12 +157,14 @@
             android:id="@+id/hasIssuesDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/has_wiki_detailed_text"
             android:textSize="12sp" />
 
@@ -151,12 +172,14 @@
             android:id="@+id/hasWikiDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/has_pages_detailed_text"
             android:textSize="12sp" />
 
@@ -164,12 +187,14 @@
             android:id="@+id/hasPagesDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/TextView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/forks_count_detailed_text"
             android:textSize="12sp" />
 
@@ -177,12 +202,14 @@
             android:id="@+id/forksCountDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/TextView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/private_detailed_text"
             android:textSize="12sp" />
 
@@ -190,12 +217,14 @@
             android:id="@+id/privateDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/TextView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:paddingBottom="2dp"
             android:text="@string/archived_detailed_text"
             android:textSize="12sp" />
 
@@ -203,7 +232,8 @@
             android:id="@+id/archivedDetailedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

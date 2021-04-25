@@ -3,7 +3,6 @@ package com.example.githubrepositorylist
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import android.widget.Button
 import android.widget.EditText
 import androidx.recyclerview.widget.RecyclerView
@@ -26,12 +25,14 @@ class MainActivity : AppCompatActivity() {
             username = usernameEditText.text.toString()
             val getRepositoriesThread = Thread() {
                 run {
-                    val url = "https://api.github.com/users/${username}/repos"
+                    val url =
+                        "https://api.github.com/users/${username}/repos?per_page=100?sort=full_name"
                     val body = URL(url).readText()
                     repositoryList = ArrayList(Klaxon().parseArray<RepositoryShort>(body))
                 }
                 runOnUiThread() {
-                    val repositoriesRecyclerView: RecyclerView = findViewById(R.id.reposRecyclerView)
+                    val repositoriesRecyclerView: RecyclerView =
+                        findViewById(R.id.reposRecyclerView)
                     repositoriesRecyclerView.adapter = RepositoryAdapter(
                         repositoryList,
                         this::onItemClickHandler
@@ -44,8 +45,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun onItemClickHandler(position: Int) {
-        Log.d("***", "$position")
-
         val intent = Intent(this, DetailedRepositoryActivity()::class.java)
         intent.putExtra("username", username)
         intent.putExtra("repo_name", repositoryList[position].name)

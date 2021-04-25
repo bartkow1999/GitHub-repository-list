@@ -8,12 +8,14 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:background="@drawable/border"
         android:orientation="vertical">
 
         <TextView
             android:id="@+id/TextView1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="@string/repository_name_text"
             android:textSize="12sp" />
 
@@ -21,12 +23,15 @@
             android:id="@+id/repositoryNameTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/TextView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="@string/repository_description_text"
             android:textSize="12sp" />
 
@@ -34,12 +39,15 @@
             android:id="@+id/descriptionTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/TextView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_margin="5dp"
             android:text="@string/repository_language_text"
             android:textSize="12sp" />
 
@@ -47,7 +55,9 @@
             android:id="@+id/languageTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="16sp" />
+            android:layout_margin="5dp"
+            android:textSize="16sp"
+            android:textStyle="bold" />
 
     </LinearLayout>
 

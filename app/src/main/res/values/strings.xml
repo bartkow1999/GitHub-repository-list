@@ -16,5 +16,5 @@
     <string name="has_pages_detailed_text">HAS PAGES:</string>
     <string name="forks_count_detailed_text">FORKS COUNT:</string>
     <string name="private_detailed_text">PRIVATE:</string>
-    <string name="archived_detailed_text">ARCHIVED</string>
+    <string name="archived_detailed_text">ARCHIVED:</string>
 </resources>
