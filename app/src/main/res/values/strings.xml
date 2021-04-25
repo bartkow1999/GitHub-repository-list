@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">GithubRepositoryList</string>
+    <string name="get_repos_button_text">GET REPOS</string>
+    <string name="username_textView_text">Username:</string>
+    <string name="repository_name_text">REPOSITORY NAME:</string>
+    <string name="repository_description_text">DESCRIPTION:</string>
+    <string name="repository_language_text">LANGUAGE:</string>
 </resources>
