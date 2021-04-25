@@ -12,7 +12,7 @@ The main aim of this application is to fetch data from GitHub API. It was made a
 This application uses URL to collect data from API.
 JSON objects are parsed using Klaxon and presented using RecyclerView.
 
-To fetch data put username on main screen and press 'get repos' button.
+To fetch data put username in main screen and press 'get repos' button.
 To look into repository details press one of shown repository objects on main screen.
 
 The project was made in **April 2021**.
@@ -30,7 +30,7 @@ Clone this repository using git bash:
 https://github.com/bartosztkowalski/GitHub-repository-list.git
 ```
 
-You can also launch the application using ```Github-repository-list.apk``` file (located in main repository folder)
+The app can also be launched using ```Github-repository-list.apk``` file (located in main repository folder)
 
 ## App development
 There are many ways how we can develop the app:
