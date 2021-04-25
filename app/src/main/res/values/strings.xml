@@ -5,4 +5,16 @@
     <string name="repository_name_text">REPOSITORY NAME:</string>
     <string name="repository_description_text">DESCRIPTION:</string>
     <string name="repository_language_text">LANGUAGE:</string>
+    <string name="default_branch_detailed_text">DEFAULT BRANCH:</string>
+    <string name="subscribers_count_detailed_text">SUBSCRIBERS COUNT:</string>
+    <string name="created_at_detailed_text">CREATED AT:</string>
+    <string name="updated_at_detailed_text">UPDATED AT:</string>
+    <string name="pushed_at_detailed_text">PUSHED AT:</string>
+    <string name="size_detailed_text">SIZE:</string>
+    <string name="has_issues_detailed_text">HAS ISSUES:</string>
+    <string name="has_wiki_detailed_text">HAS WIKI:</string>
+    <string name="has_pages_detailed_text">HAS PAGES:</string>
+    <string name="forks_count_detailed_text">FORKS COUNT:</string>
+    <string name="private_detailed_text">PRIVATE:</string>
+    <string name="archived_detailed_text">ARCHIVED</string>
 </resources>

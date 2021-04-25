@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         getReposButton.setOnClickListener() {
             username = usernameEditText.text.toString()
-            val threadGetRepositories = Thread() {
+            val getRepositoriesThread = Thread() {
                 run {
                     val url = "https://api.github.com/users/${username}/repos"
                     val body = URL(url).readText()
@@ -38,13 +38,18 @@ class MainActivity : AppCompatActivity() {
                     )
                 }
             }
-            threadGetRepositories.start()
+            getRepositoriesThread.start()
         }
 
     }
 
     private fun onItemClickHandler(position: Int) {
         Log.d("***", "$position")
+
+        val intent = Intent(this, DetailedRepositoryActivity()::class.java)
+        intent.putExtra("username", username)
+        intent.putExtra("repo_name", repositoryList[position].name)
+        startActivity(intent)
     }
 
 }
