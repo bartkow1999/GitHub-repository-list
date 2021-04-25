@@ -5,7 +5,7 @@ The main aim of this application is to fetch data from GitHub API. It was made a
 * [General info](#general-info)
 * [Technologies](#technologies)
 * [Setup](#setup)
-* [App development](#app_development)
+* [App development](#app-development)
 * [Screenshots](#examples)
 
 ## General info
@@ -27,7 +27,7 @@ The project was made in **April 2021**.
 It`s preferred to open in Android Studio. It shall be launched on **API 30**.
 Clone this repository using git bash:
 ```
-https://github.com/bartosztkowalski/GitHub-repository-list.git
+git clone https://github.com/bartosztkowalski/GitHub-repository-list.git
 ```
 
 The app can also be launched using ```Github-repository-list.apk``` file (located in main repository folder)
